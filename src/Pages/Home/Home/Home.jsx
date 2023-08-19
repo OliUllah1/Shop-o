@@ -4,6 +4,7 @@ import Facility from '../Facility/Facility';
 import GamerWorld from '../GamerWorld/GamerWorld';
 import Brand from '../Brand/Brand';
 import Campaign from '../Campaign/Campaign';
+import TopProducts from '../TopProducts/TopProducts';
 
 
 const Home = () => {
@@ -14,6 +15,7 @@ const Home = () => {
             <GamerWorld></GamerWorld>
             <Brand></Brand>
             <Campaign></Campaign>
+            <TopProducts></TopProducts>
         </div>
     );
 };
