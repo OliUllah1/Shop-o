@@ -4,7 +4,7 @@ import { Outlet } from 'react-router-dom';
 
 const Main = () => {
     return (
-        <div>
+        <div className='bg-slate-100'>
             <MenuBar></MenuBar>
             <Outlet></Outlet>
         </div>

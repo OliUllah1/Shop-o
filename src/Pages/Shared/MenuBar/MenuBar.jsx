@@ -5,7 +5,7 @@ import logo from '../../../assets/images/menubar/logo.svg';
 
 const MenuBar = () => {
     return (
-        <div className=''>
+        <>
             <div className='flex lg:px-10 px-2 py-2 text-sm font-semibold justify-between items-center'>
                 <ul className='flex gap-5 items-center'>
                     <li>Account</li>
@@ -37,14 +37,14 @@ const MenuBar = () => {
             <hr />
             <div className='py-2 relative px-2 lg:px-10  bg-[#ffbb38]'>
                 <div className=' flex items-center justify-between'>
-                    <div className='w-[25%]'>
-                        <button className='flex bg-white rounded-t absolute bottom-0 py-3 px-7 items-center gap-12 font-semibold  justify-between'>
+                    <div className='w-[23%]'>
+                        <button className='flex bg-white rounded-t absolute bottom-0 py-4 px-7 items-center gap-12 font-semibold  justify-between'>
                         <span className='flex items-center gap-3'><FaAlignLeft></FaAlignLeft> All Categories</span>
                         <FaAngleDown></FaAngleDown>
                         </button>
                         
                     </div>
-                    <div className='w-[75%] flex items-center justify-between'>
+                    <div className='w-[77%] flex items-center justify-between'>
                     <ul className='flex font-semibold items-center gap-10'>
                         <li>Home</li>
                         <li className='flex items-center gap-2'>Shop <FaAngleDown></FaAngleDown></li>
@@ -57,7 +57,7 @@ const MenuBar = () => {
                     </div>
                 </div>
             </div>
-        </div>
+        </>
     );
 };
 
