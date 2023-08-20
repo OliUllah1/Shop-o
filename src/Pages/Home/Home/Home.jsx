@@ -5,6 +5,7 @@ import GamerWorld from '../GamerWorld/GamerWorld';
 import Brand from '../Brand/Brand';
 import Campaign from '../Campaign/Campaign';
 import TopProducts from '../TopProducts/TopProducts';
+import BestSaller from '../BestSaller/BestSaller';
 
 
 const Home = () => {
@@ -16,6 +17,7 @@ const Home = () => {
             <Brand></Brand>
             <Campaign></Campaign>
             <TopProducts></TopProducts>
+            <BestSaller></BestSaller>
         </div>
     );
 };
