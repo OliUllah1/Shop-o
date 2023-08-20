@@ -6,6 +6,7 @@ import Brand from '../Brand/Brand';
 import Campaign from '../Campaign/Campaign';
 import TopProducts from '../TopProducts/TopProducts';
 import BestSaller from '../BestSaller/BestSaller';
+import Ads from '../Ads/Ads';
 
 
 const Home = () => {
@@ -18,6 +19,7 @@ const Home = () => {
             <Campaign></Campaign>
             <TopProducts></TopProducts>
             <BestSaller></BestSaller>
+            <Ads></Ads>
         </div>
     );
 };
