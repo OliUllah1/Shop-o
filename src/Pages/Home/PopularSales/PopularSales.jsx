@@ -8,12 +8,12 @@ import ads from '../../../assets/images/popular/ads.webp'
 
 const PopularSales = () => {
     return (
-        <div className='p-10 space-y-10'>
+        <div className='p-10'>
             <div className='flex items-center justify-between'>
                 <h1 className='font-bold text-4xl'>Popular Sales</h1>
                 <button className='flex text-xl font-semibold items-center gap-1'>View More <FaArrowRight></FaArrowRight></button>
             </div>
-            <div className='grid grid-cols-4 gap-5'>
+            <div className='grid pt-10 grid-cols-4 gap-5'>
                 <div className='w-full h-full relative'>
                     <img className='h-full' src={popularBg} alt="" />
                     <div className='absolute space-y-2 top-0 left-0 p-10'>
@@ -73,7 +73,7 @@ const PopularSales = () => {
                     </div>
                 </div>
             </div>
-            <div className='p-24'>
+            <div className='p-28'>
                 <img className='mx-auto cursor-pointer' src={ads} alt="" />
             </div>
         </div>

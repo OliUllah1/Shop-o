@@ -8,6 +8,7 @@ import TopProducts from '../TopProducts/TopProducts';
 import BestSaller from '../BestSaller/BestSaller';
 import Ads from '../Ads/Ads';
 import PopularSales from '../PopularSales/PopularSales';
+import NewArrivals from '../NewArrivals/NewArrivals';
 
 
 const Home = () => {
@@ -22,6 +23,7 @@ const Home = () => {
             <BestSaller></BestSaller>
             <Ads></Ads>
             <PopularSales></PopularSales>
+            <NewArrivals></NewArrivals>
         </div>
     );
 };
