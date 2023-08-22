@@ -73,8 +73,8 @@ const PopularSales = () => {
                     </div>
                 </div>
             </div>
-            <div className='p-28'>
-                <img className='mx-auto cursor-pointer' src={ads} alt="" />
+            <div className='mt-10'>
+                <img className='mx-auto w-full cursor-pointer' src={ads} alt="" />
             </div>
         </div>
     );

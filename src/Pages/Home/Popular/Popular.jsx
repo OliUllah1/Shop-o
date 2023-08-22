@@ -97,7 +97,7 @@ const Popular = () => {
                     </div>
                 </div>
                 <div className='bg-white flex items-center gap-10 px-5 py-3'>
-                    <img className='w-20' src={product2} alt="" />
+                    <img className='w-20' src={product7} alt="" />
                     <div className='space-y-2'>
                         <h3 className='font-bold text-lg hover:text-blue-800'>Xoggle aute et pariatur...</h3>
                         <p className='font-bold text-xl space-x-2'><span className='text-gray-500 line-through '>$27.27</span>  <span className='text-red-600'>$18.73</span></p>

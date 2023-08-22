@@ -235,7 +235,7 @@ const NewArrivals = () => {
                 
             </div>
             <div>
-            <img  className='mx-auto cursor-pointer' src={ads} alt="" />
+            <img  className='w-full cursor-pointer' src={ads} alt="" />
             </div>
         </div>
     );
