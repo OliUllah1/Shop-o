@@ -8,8 +8,8 @@ const Discount = () => {
                 <h2 className='font-bold text-4xl'>Get <span className='text-yellow-500'>20%</span> Off Discount Coupon</h2>
                 <p className='font-semibold mt-2 mb-5 text-xl text-center text-gray-600'>by Subscribe our Newsletter</p>
                 <form className='flex items-center' action="">
-                    <input className='border overflow-hidden py-3 w-96 px-5 border-gray-300' placeholder='EMAIL ADDRESS' type="text" />
-                    <button className='px-5 font-semibold py-3 bg-yellow-500' type='submit'>Get the Coupon</button>
+                    <input className='border overflow-hidden py-4 w-96 px-5 border-gray-300' placeholder='EMAIL ADDRESS' type="text" />
+                    <button className='px-4 font-semibold py-4 bg-yellow-500' type='submit'>Get the Coupon</button>
                 </form>
             </div>
         </div>
